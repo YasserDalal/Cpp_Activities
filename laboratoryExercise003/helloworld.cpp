@@ -3,6 +3,7 @@
 // define the std so we avoid by reusing it over and over 'makes the code cleaner'
 using namespace std;
 
+// used for returning NULL in each functions in global scope
 bool yasserDalalErrors = NULL;
 /*
   Write a program that displays “Hello” in one line, 
