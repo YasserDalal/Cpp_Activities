@@ -50,8 +50,11 @@ int question3(){
 }
 
 int main(){
+  cout << "Question 1" << endl;
   question1();
+  cout << "Question 2" << endl;
   question2();
+  cout << "Question 3" << endl;
   question3();
   return yasserDalalErrors;
 }
