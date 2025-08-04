@@ -55,20 +55,20 @@ int question3(){
 }
 
 int main(){
-
-  cout << "" << endl;
+  /* run the outputs of the questions */
+  cout << "" << endl; // creates new line
   
   cout << "Question 1" << endl;
   question1();
-  cout << "" << endl;
+  cout << "" << endl; // creates new line
 
   cout << "Question 2" << endl;
   question2();
-  cout << "" << endl;
+  cout << "" << endl; // creates new line
 
   cout << "Question 3" << endl;
   question3();
-  cout << "" << endl;
+  cout << "" << endl; // creates new line
 
-  return yasserDalalErrors;
+  return yasserDalalErrors; // means no errors found
 }
