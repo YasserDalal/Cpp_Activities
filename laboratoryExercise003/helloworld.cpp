@@ -23,3 +23,13 @@ int question2(){
   cout << "World" << endl;
   return yasserDalalErrors;
 }
+
+int question3(){
+  std::cout << "Hello" << std::endl;
+  std::cout << "World" << std::endl;
+  std::cout << "World" << std::endl;
+  std::cout << "World" << std::endl;
+  std::cout << "World" << std::endl;
+  std::cout << "World" << std::endl;
+  return yasserDalalErrors;
+}
