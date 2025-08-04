@@ -1,5 +1,6 @@
-#include <iostream>
+#include <iostream> // enables cout
 
+// define the std so we avoid by reusing it over and over 'makes the code cleaner'
 using namespace std;
 
 bool yasserDalalErrors = NULL;
@@ -10,7 +11,7 @@ bool yasserDalalErrors = NULL;
 int question1(){
   cout << "Hello" << endl;
   cout << "World" << endl;
-  return yasserDalalErrors;
+  return yasserDalalErrors; // means no errors found
 }
 
 /*
@@ -28,7 +29,7 @@ int question2(){
   cout << "World" << endl;
   cout << "Hello" << endl;
   cout << "World" << endl;
-  return yasserDalalErrors;
+  return yasserDalalErrors; // means no errors found
 }
 
 /*
@@ -37,11 +38,13 @@ int question2(){
   and exactly five (5) COUT statements for the “World”.
 */
 int question3(){
+  // we can still use 'std::' even if we define it before
+  // we won't get any errors
   std::cout << "Hello" << std::endl;
   std::cout << "World" << std::endl;
   std::cout << "World" << std::endl;
   std::cout << "World" << std::endl;
   std::cout << "World" << std::endl;
   std::cout << "World" << std::endl;
-  return yasserDalalErrors;
+  return yasserDalalErrors; // means no errors found
 }
