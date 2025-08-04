@@ -9,3 +9,17 @@ int question1(){
   cout << "World" << endl;
   return yasserDalalErrors;
 }
+
+int question2(){
+  cout << "Hello" << endl;
+  cout << "World" << endl;
+  cout << "Hello" << endl;
+  cout << "World" << endl;
+  cout << "Hello" << endl;
+  cout << "World" << endl;
+  cout << "Hello" << endl;
+  cout << "World" << endl;
+  cout << "Hello" << endl;
+  cout << "World" << endl;
+  return yasserDalalErrors;
+}
