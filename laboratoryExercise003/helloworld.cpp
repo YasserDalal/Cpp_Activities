@@ -48,3 +48,10 @@ int question3(){
   std::cout << "World" << std::endl;
   return yasserDalalErrors; // means no errors found
 }
+
+int main(){
+  question1();
+  question2();
+  question3();
+  return yasserDalalErrors;
+}
