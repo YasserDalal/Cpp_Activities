@@ -3,14 +3,17 @@
 // define the std so we avoid by reusing it over and over 'makes the code cleaner'
 using namespace std;
 
+// used for returning NULL in each functions in global scope
 bool yasserDalalErrors = NULL;
 /*
   Write a program that displays “Hello” in one line, 
   and “World” in another line using exactly two (2) COUT statements.
 */
 int question1(){
+
   cout << "Hello" << endl;
   cout << "World" << endl;
+
   return yasserDalalErrors; // means no errors found
 }
 
@@ -19,6 +22,7 @@ int question1(){
   and “World” in another line using exactly ten (10) COUT statements.
 */
 int question2(){
+
   cout << "Hello" << endl;
   cout << "World" << endl;
   cout << "Hello" << endl;
@@ -29,6 +33,7 @@ int question2(){
   cout << "World" << endl;
   cout << "Hello" << endl;
   cout << "World" << endl;
+
   return yasserDalalErrors; // means no errors found
 }
 
@@ -46,19 +51,25 @@ int question3(){
   std::cout << "World" << std::endl;
   std::cout << "World" << std::endl;
   std::cout << "World" << std::endl;
+
   return yasserDalalErrors; // means no errors found
 }
 
 int main(){
-  cout << "" << endl;
+  /* run the outputs of the questions */
+  cout << "" << endl; // creates new line
+  
   cout << "Question 1" << endl;
   question1();
-  cout << "" << endl;
+  cout << "" << endl; // creates new line
+
   cout << "Question 2" << endl;
   question2();
-  cout << "" << endl;
+  cout << "" << endl; // creates new line
+
   cout << "Question 3" << endl;
   question3();
-  cout << "" << endl;
-  return yasserDalalErrors;
+  cout << "" << endl; // creates new line
+
+  return yasserDalalErrors; // means no errors found
 }
