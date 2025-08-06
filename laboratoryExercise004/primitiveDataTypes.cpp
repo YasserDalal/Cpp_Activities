@@ -100,6 +100,7 @@ int question3(){
 }
 
 int main(){
+  // run the outputs of the questions
   question1();
   question2();
   question3();
