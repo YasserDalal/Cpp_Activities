@@ -21,3 +21,25 @@ int question1() {
 
   return false;
 }
+
+int question2(){
+  long long userBudget;
+  cout << "____________________________________________________________________________________" << endl;
+  cout << "" << endl;
+  
+  cout << "Question 2" << endl;
+  cout << "" << endl;
+
+  cout << "What is you Daily Budget?: "; cin >> userBudget;
+  cout << "" << endl;
+
+  cout << "The Product of " 
+  << userBudget << " is ==> " 
+  << userBudget << " x " << userBudget << " = " 
+  << userBudget * userBudget;
+  
+  cout << "" << endl;
+  cout << "____________________________________________________________________________________" << endl;
+
+  return false;
+}
