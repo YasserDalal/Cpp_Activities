@@ -43,3 +43,29 @@ int question2(){
 
   return false;
 }
+
+int question3(){
+  string userName, password, address;
+  cout << "____________________________________________________________________________________" << endl;
+  cout << "" << endl;
+
+  cout << "Question 3" << endl;
+  cout << "" << endl;
+
+  cout << "What is your name?: "; cin >> userName;
+  cout << "" << endl;
+
+  cout << "Enter your password: "; cin >> password;
+  cout << "" << endl;
+
+  cout << "What is your address?: "; cin >> address;
+  cout << "" << endl;
+  cout << "" << endl;
+
+  cout << "Hi, I am " << userName << "." << " I live at " << address;
+
+  cout << "" << endl;
+  cout << "____________________________________________________________________________________" << endl;
+
+  return false;
+}
