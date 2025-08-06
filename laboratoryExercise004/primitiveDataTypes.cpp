@@ -24,6 +24,7 @@ int question1() {
 
 int question2(){
   long long userBudget;
+  
   cout << "____________________________________________________________________________________" << endl;
   cout << "" << endl;
   
@@ -46,6 +47,7 @@ int question2(){
 
 int question3(){
   string userName, password, address;
+
   cout << "____________________________________________________________________________________" << endl;
   cout << "" << endl;
 
