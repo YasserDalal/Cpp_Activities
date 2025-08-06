@@ -69,3 +69,11 @@ int question3(){
 
   return false;
 }
+
+int main(){
+  question1();
+  question2();
+  question3();
+  
+  return false;
+}
