@@ -2,6 +2,9 @@
 
 using namespace std;
 
+/*
+  Write a program that accepts user’s section, and display them back with the format “ Section: user’s section ”.
+*/
 int question1() {
   string userSection;
 
@@ -22,6 +25,9 @@ int question1() {
   return false;
 }
 
+/*
+  Write a program that accepts user’s daily budget and display the product of the daily budget and itself.
+*/
 int question2(){
   long long userBudget;
   
@@ -45,6 +51,13 @@ int question2(){
   return false;
 }
 
+/*
+  Write a program that accepts user’s name, password and address and display them back using the format “Hi, I am user’s name. I live at user’s address.”.
+
+    Restrictions:
+      -Use only three variables.
+      -Make sure you support spaces.
+*/
 int question3(){
   string userName, password, address;
 
