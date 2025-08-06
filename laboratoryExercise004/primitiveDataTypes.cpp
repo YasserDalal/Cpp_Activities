@@ -52,13 +52,13 @@ int question3(){
   cout << "Question 3" << endl;
   cout << "" << endl;
 
-  cout << "What is your name?: "; cin >> userName;
+  cout << "What is your name?: "; getline(cin >> ws, userName);
   cout << "" << endl;
 
-  cout << "Enter your password: "; cin >> password;
+  cout << "Enter your password: "; getline(cin >> ws, password);
   cout << "" << endl;
 
-  cout << "What is your address?: "; cin >> address;
+  cout << "What is your address?: "; getline(cin >> ws, address);
   cout << "" << endl;
   cout << "" << endl;
 
