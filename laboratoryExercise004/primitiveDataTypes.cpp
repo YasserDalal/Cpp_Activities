@@ -1,24 +1,28 @@
-#include <iostream>
+#include <iostream> // enable to use cout, cin
 
+// declare std for using cout, cin, and string without using the prefix 'std::'
 using namespace std;
 
 /*
   Write a program that accepts user’s section, and display them back with the format “ Section: user’s section ”.
 */
 int question1() {
-  string userSection;
-
+  string userSection; // accepts strings from user input
+  
+  // break line
   cout << "____________________________________________________________________________________" << endl;
   cout << "" << endl;
   
-  cout << "Question 1" << endl;
+  cout << "Question 1" << endl; // labels
   cout << "" << endl;
 
   cout << "What is your Section?: "; cin >> userSection;
   cout << "" << endl;
 
+  // output
   cout << "Section: " << userSection;
   
+  // break line
   cout << "" << endl;
   cout << "____________________________________________________________________________________" << endl;
 
@@ -29,22 +33,25 @@ int question1() {
   Write a program that accepts user’s daily budget and display the product of the daily budget and itself.
 */
 int question2(){
-  long long userBudget;
+  long long userBudget; // accepts higher value numbers
   
+  // break line
   cout << "____________________________________________________________________________________" << endl;
   cout << "" << endl;
   
-  cout << "Question 2" << endl;
+  cout << "Question 2" << endl; // labels
   cout << "" << endl;
 
   cout << "What is you Daily Budget?: "; cin >> userBudget;
   cout << "" << endl;
 
+  // output
   cout << "The Product of " 
   << userBudget << " is ==> " 
   << userBudget << " x " << userBudget << " = " 
   << userBudget * userBudget;
   
+  // break line
   cout << "" << endl;
   cout << "____________________________________________________________________________________" << endl;
 
@@ -59,12 +66,13 @@ int question2(){
       -Make sure you support spaces.
 */
 int question3(){
-  string userName, password, address;
+  string userName, password, address; // accepts 3 string inputs from the user
 
+  // break line
   cout << "____________________________________________________________________________________" << endl;
   cout << "" << endl;
 
-  cout << "Question 3" << endl;
+  cout << "Question 3" << endl; // labels
   cout << "" << endl;
 
   cout << "What is your name?: "; getline(cin >> ws, userName);
@@ -77,8 +85,10 @@ int question3(){
   cout << "" << endl;
   cout << "" << endl;
 
+  // output
   cout << "Hi, I am " << userName << "." << " I live at " << address;
 
+  // break line
   cout << "" << endl;
   cout << "____________________________________________________________________________________" << endl;
 
