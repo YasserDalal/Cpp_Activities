@@ -75,6 +75,10 @@ int question3(){
   cout << "Question 3" << endl; // labels
   cout << "" << endl;
 
+/* 
+   use getline() to accept spaces on user inputs
+   so after entering the input, it will proceed to the next line 
+*/
   cout << "What is your name?: "; getline(cin >> ws, userName);
   cout << "" << endl;
 
