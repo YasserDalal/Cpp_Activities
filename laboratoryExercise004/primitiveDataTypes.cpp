@@ -16,7 +16,14 @@ int question1() {
   cout << "Question 1" << endl; // labels
   cout << "" << endl;
 
-  cout << "What is your Section?: "; getline(cin, userSection);
+/*
+  use getline() to accept spaces on user inputs
+  so if the user presses enter, the whole input including the spaces will be a single string
+
+  we can still use getline(cin >> ws, variableName) 
+  it works exactly the same but only if we have a multiple cin
+*/
+  cout << "What is your Section?: "; getline(cin, userSection);//getline(cin >> ws, userSection);
   cout << "" << endl;
 
   // output
