@@ -50,10 +50,17 @@ int question2(){
   cout << "Question 2" << endl; // labels
   cout << "" << endl;
 
+/*
+  when question3() runs it will skip the first input so I used getline() in question2()
+  getline() is only used for strings
+  so accept user inputs as strings first
+*/
   cout << "What is you Daily Budget?: "; getline(cin, budgetString);
   cout << "" << endl;
 
+  // convert string to long long 
   userBudget = stoll(budgetString);
+  
   // output
   cout << "The Product of " 
   << userBudget << " is ==> " 
