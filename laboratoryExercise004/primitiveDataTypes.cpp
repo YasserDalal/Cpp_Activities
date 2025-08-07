@@ -16,7 +16,14 @@ int question1() {
   cout << "Question 1" << endl; // labels
   cout << "" << endl;
 
-  cout << "What is your Section?: "; getline(cin, userSection);
+/*
+  use getline() to accept spaces on user inputs
+  so if the user presses enter, the whole input including the spaces will be a single string
+
+  we can still use getline(cin >> ws, variableName) 
+  it works exactly the same but only if we have a multiple cin
+*/
+  cout << "What is your Section?: "; getline(cin, userSection);//getline(cin >> ws, userSection);
   cout << "" << endl;
 
   // output
@@ -34,6 +41,7 @@ int question1() {
 */
 int question2(){
   long long userBudget; // accepts higher value numbers
+  string budgetString; // accepts strings from user input
   
   // break line
   cout << "____________________________________________________________________________________" << endl;
@@ -42,9 +50,17 @@ int question2(){
   cout << "Question 2" << endl; // labels
   cout << "" << endl;
 
-  cout << "What is you Daily Budget?: "; cin >> userBudget;
+/*
+  when question3() runs it will skip the first input so I used getline() in question2()
+  getline() is only used for strings
+  so accept user inputs as strings first
+*/
+  cout << "What is your Daily Budget?: "; getline(cin, budgetString);
   cout << "" << endl;
 
+  // convert string to long long 
+  userBudget = stoll(budgetString);
+  
   // output
   cout << "The Product of " 
   << userBudget << " is ==> " 
@@ -76,8 +92,12 @@ int question3(){
   cout << "" << endl;
 
 /* 
-   use getline() to accept spaces on user inputs
-   so after entering the input, it will proceed to the next line 
+   as you can see we use getline(cin >> ws, variableName) 
+   because there are multiple user inputs 
+   
+   cin >> ws, means it will clear the whitespaces from the previous input 
+
+   so after entering the input, it will proceed to the next new line of input 
 */
   cout << "What is your name?: "; getline(cin >> ws, userName);
   cout << "" << endl;
