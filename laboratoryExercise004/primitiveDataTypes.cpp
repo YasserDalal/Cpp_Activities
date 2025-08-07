@@ -92,8 +92,12 @@ int question3(){
   cout << "" << endl;
 
 /* 
-   use getline() to accept spaces on user inputs
-   so after entering the input, it will proceed to the next line 
+   as you can see we use getline(cin >> ws, variableName) 
+   because there are multiple user inputs 
+   
+   cin >> ws, means it will clear the whitespaces from the previous input 
+
+   so after entering the input, it will proceed to the next new line of input 
 */
   cout << "What is your name?: "; getline(cin >> ws, userName);
   cout << "" << endl;
