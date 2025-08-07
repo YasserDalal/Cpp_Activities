@@ -55,7 +55,7 @@ int question2(){
   getline() is only used for strings
   so accept user inputs as strings first
 */
-  cout << "What is you Daily Budget?: "; getline(cin, budgetString);
+  cout << "What is your Daily Budget?: "; getline(cin, budgetString);
   cout << "" << endl;
 
   // convert string to long long 
