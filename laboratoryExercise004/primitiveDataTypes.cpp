@@ -16,7 +16,7 @@ int question1() {
   cout << "Question 1" << endl; // labels
   cout << "" << endl;
 
-  cout << "What is your Section?: "; cin >> userSection;
+  cout << "What is your Section?: "; getline(cin, userSection);
   cout << "" << endl;
 
   // output
