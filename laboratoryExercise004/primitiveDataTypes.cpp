@@ -41,6 +41,7 @@ int question1() {
 */
 int question2(){
   long long userBudget; // accepts higher value numbers
+  string budgetString; // accepts strings from user input
   
   // break line
   cout << "____________________________________________________________________________________" << endl;
@@ -49,9 +50,10 @@ int question2(){
   cout << "Question 2" << endl; // labels
   cout << "" << endl;
 
-  cout << "What is you Daily Budget?: "; cin >> userBudget;
+  cout << "What is you Daily Budget?: "; getline(cin, budgetString);
   cout << "" << endl;
 
+  userBudget = stoll(budgetString);
   // output
   cout << "The Product of " 
   << userBudget << " is ==> " 
