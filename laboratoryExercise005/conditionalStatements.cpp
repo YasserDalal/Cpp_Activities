@@ -40,3 +40,18 @@ int question2(){
 
   return 0;
 }
+
+int question3(){
+  float num1, num2;
+  string input1, input2;
+
+  cout << "Enter your first number: "; getline(cin >> ws, input1);
+  cout << "Enter your second number: "; getline(cin >> ws, input2);
+
+  num1 = stof(input1);
+  num2 = stof(input2);
+
+  cout << "Result of " << num1 << " ÷ " << num2 << " = " << num1 / num2 << endl;
+
+  return 0;
+}
