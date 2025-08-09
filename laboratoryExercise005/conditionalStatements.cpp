@@ -6,6 +6,15 @@ using namespace std;
 // reusable line break for each question
 const string lineBreak = "____________________________________________________________________________________";
 
+/*
+  Write a program that will accept an integer and execute one of the following based on the input using IF statements:
+    a.If 0, display only “Hello World”.
+    b.If 1, display only “I am Groot”.
+    c.If 2, display only “To the Top”.
+    d.If 3, display only “Where is the horizon”.
+    e.If 4, display only “I do not know”.
+    If none of the above, display only “Yeah, I will.”.
+*/
 int question1(){
   int numInput; // accepts integer inputs
   string userInput; // accepts string inputs
@@ -43,6 +52,15 @@ int question1(){
   return 0;
 }
 
+/*
+  Write a program that will accept an integer and execute one of the following based on the input using SWITCH statements:
+    a.If 0, display only “Hello World”.
+    b.If 1, display only “I am good”.
+    c.If 2, display only “To the Top”.
+    d.If 3, display only “Where is the horizon”.
+    e.If 4, display only “I do not know”.
+    f.If none of the above, display only “Yeah, I will.”.
+*/
 int question2(){
   int numInput; // accepts integer inputs
   string userInput; // accepts string inputs
@@ -85,6 +103,11 @@ int question2(){
   return 0;
 }
 
+/*
+  Write a program that will divide the two floating points entered by the user 
+  (first number entered divided by the second number entered). 
+  Make sure your application handles all possible scenarios with floating points.
+*/
 int question3(){
   float num1, num2; // accepts float inputs (numbers with/without decimals)
   string input1, input2; // accepts string inputs
