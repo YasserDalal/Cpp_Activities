@@ -127,3 +127,12 @@ int question3(){
 
   return 0;
 }
+
+int main() {
+  // run the functions
+  question1();
+  question2();
+  question3();
+
+  return 0; 
+}
