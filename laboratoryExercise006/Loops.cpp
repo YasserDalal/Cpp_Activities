@@ -6,6 +6,10 @@ using namespace std;
 // reusable line break
 const string lineBreak = "____________________________________________________________________________________";
 
+/*
+  Write a program using WHILE statement that displays a right triangle using asterisks 
+  where the height is at the left corner of the application. The height will depend on the user input.
+*/
 int question1(){
 // accept input | loop variables
   int integer, i = 0, j;
@@ -40,6 +44,10 @@ int question1(){
   return 0;
 }
 
+/*
+  Write a program using FOR statement that displays a right triangle using asterisks 
+  where the height is at the right corner of the application.The height will depend on the user input.
+*/
 int question2(){
   // accept input
   int integer;
@@ -68,6 +76,10 @@ int question2(){
   return 0;
 }
 
+/*
+  Write a program using DO WHILE statement that displays an inverted equilateral triangle using asterisks. 
+  No asterisk should be adjacent to one another. The height will depend on the user input.
+*/
 int question3(){
 // accept input | loop variables
   int integer, i = 0, j;
