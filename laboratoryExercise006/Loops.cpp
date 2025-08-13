@@ -26,3 +26,23 @@ int question1(){
 
   return 0;
 }
+
+int question2(){
+  int integer = 5;
+
+  cout << lineBreak << endl << endl;
+  cout << "Question 2 (For loop)" << endl;
+  cout << endl;
+
+  cout << "Enter a number: "; cin >> integer;
+  cout << endl;
+
+  for(int i = 0; i < integer; i++){
+    for(int j = 0; j <= i; j++){
+      cout << "*";
+    }
+    cout << endl;
+  }
+
+  return 0;
+}
