@@ -46,3 +46,37 @@ int question2(){
 
   return 0;
 }
+
+int question3(){
+  int integer = 5, i = 0, j;
+  string spaces;
+
+  cout << lineBreak << endl << endl;
+  cout << "Question 3 (Do While loop)" << endl;
+  cout << endl;
+
+  cout << "Enter a number: "; cin >> integer;
+  cout << endl;
+
+  do {
+    cout << spaces;
+
+    j = 0;
+
+    while(j < integer){
+      cout << "* ";
+      j++;
+    }
+
+    cout << endl;
+
+    if(j >= 1){
+      spaces += ' ';
+    }
+
+    integer--;
+
+  } while(integer > i);
+
+  return 0;
+}
