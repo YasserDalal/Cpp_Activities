@@ -5,7 +5,7 @@ using namespace std;
 const string lineBreak = "____________________________________________________________________________________";
 
 int question1(){
-  int integer = 5, i = 0, j;
+  int integer, i = 0, j;
 
   cout << lineBreak << endl << endl;
   cout << "Question 1 (While loop)" << endl;
@@ -28,7 +28,7 @@ int question1(){
 }
 
 int question2(){
-  int integer = 5;
+  int integer;
 
   cout << lineBreak << endl << endl;
   cout << "Question 2 (For loop)" << endl;
@@ -48,7 +48,7 @@ int question2(){
 }
 
 int question3(){
-  int integer = 5, i = 0, j;
+  int integer, i = 0, j;
   string spaces;
 
   cout << lineBreak << endl << endl;
