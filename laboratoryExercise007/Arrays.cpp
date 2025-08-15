@@ -6,6 +6,10 @@ using namespace std;
 // reusable line break
 const string lineBreak = "_________________________________________________________________";
 
+/*
+  Write a program that will accept five (5) integers and display them to the users. 
+  You are limited to using only two (2) variables (including the array).
+*/
 int question1(){
 //user input | array
   int input, integer[5];
@@ -30,10 +34,14 @@ int question1(){
   cout << "Array contains 5 elements: [ " << 
   integer[0] << ", " << integer[1] << ", " << integer[2] << ", " << integer[3] << ", " << integer[4] << " ]" << endl;
 
-  cout << endl;
   return 0;
 }
 
+/*
+  Write a program that will display an equilateral triangle with a height depending on the user. 
+  The minimum height is 1, the maximum height is 10. Use an array to display the specific character on the specific row.
+  The array will be: { 0 := “A”, 1:= “B”, 2 := “C”, 3 := “D”, 4 := “E”, 5 := “F”, 6 := “G”, 7 := “H”, 8 := “I”, 9 := “J” }. You are limited to four (4) variables only (including the array).
+*/
 int question2(){
   // user input
   int input;
@@ -71,11 +79,13 @@ int question2(){
     }
     cout << endl;
   }
-  cout << endl;
 
   return 0;
 }
 
+/*
+  Write a program that will ascendingly sort six (6) integers from the user. Use only four (4) variables (including the array).
+*/
 int question3(){
   // array that holds 6 integers | num for index
   int sortedIntegers[6], num = 0;
