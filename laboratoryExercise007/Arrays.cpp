@@ -57,3 +57,40 @@ int question2(){
 
   return 0;
 }
+
+int question3(){
+  int sortedIntegers[6], num = 0;
+
+  cout << endl;
+  cout << lineBreak << endl;
+  cout << endl;
+
+  cout << "Question 3" << endl;
+  cout << endl;
+
+  do {
+
+    cout << "Enter a number [" << num + 1 << "]: "; cin >> sortedIntegers[num];
+    num++;
+
+  } while(num < 6);
+
+  for(num = 0; num < sizeof(sortedIntegers) / sizeof(sortedIntegers[0]); num++){
+    for(int j = 0; j < num; j++){
+      if(sortedIntegers[j] > sortedIntegers[num]){
+        int temp = sortedIntegers[num];
+        sortedIntegers[num] = sortedIntegers[j];
+        sortedIntegers[j] = temp;
+      }
+    }
+  }
+  cout << endl;
+
+  cout << "Sorted array: [ " 
+  << sortedIntegers[0] << ", " << sortedIntegers[1] << ", " 
+  << sortedIntegers[2] << ", " << sortedIntegers[3] << ", "
+  << sortedIntegers[4] << ", " << sortedIntegers[5] << " ]" << endl;
+
+  cout << endl;
+  return 0;
+}
