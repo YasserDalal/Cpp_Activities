@@ -44,3 +44,43 @@ int question1(vector<int> arrayNum = {}){
   }
   return 0;
 }
+
+int question2(short num = 0){
+  short input;
+  string stringNum, stringInput, answer;
+  cout << lineBreak << endl << endl;
+
+  if(num == 0){
+    cout << "Question 2 (User Input)" << endl << endl;
+
+    do {
+      cout << "Enter a number from (10 - 99): "; cin >> input;
+      
+    } while(input > 99 || input < 10);
+    cout << endl;
+    
+    stringInput = to_string(input);
+
+    cout << "Separated: " << stringInput[0] << " " << stringInput[1] << endl;
+    
+    return 0;
+  }
+
+  cout << "Question 2 (Only Arguments)" << endl << endl;
+
+  do {
+    answer == "no" && cout << "Go to the caller and put some numbers from 10 to 99" << endl << endl;
+    answer == "yes" && cout << "Please double check the arguments again" << endl << endl;
+
+    cout << "Did you pass an argument from 10 to 99 (yes/no): "; cin >> answer;
+
+  } while(num > 99 || num < 10 || answer == "no");
+  cout << endl;
+
+  stringNum = to_string(num);
+
+  cout << "Argument: " << stringNum  << endl << endl;
+  cout << "Separated: " << stringNum[0] << " " << stringNum[1] << endl << endl;
+
+  return 0;
+}
