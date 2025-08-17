@@ -7,6 +7,9 @@ using namespace std;
 // reusable line break
 const string lineBreak = "_______________________________________________________________";
 
+/*
+  Write a program that can divide six non-zero integers (two integers per division) from the user and display the result to the user. Create a function that will perform the division operation. Display only the non-decimal part of the quotient.
+*/
 int question1(vector<int> arrayNum = {}){
 //user input | length of array
   int input, lengthOfArray = arrayNum.size();
@@ -64,6 +67,7 @@ int question1(vector<int> arrayNum = {}){
   return 0;
 }
 
+// Write a program that will accept a short value from 10 to 99 and display them per digit (separated by a space).
 int question2(short num = 0){
   // user input
   short input;
@@ -150,6 +154,9 @@ void calculateFibb(int num, vector<int> arrayNum, int num1, int num2){
   cout << endl;
 }
 
+/*
+  Write a program that will display the nth Fibonacci number. Create a function that will generate the nth Fibonacci number. Fibonacci numbers are numbers from the Fibonacci sequence which follows the pattern of 1, 1, 2, 3, 5, 8, 13, 21, 33, 54…
+*/
 int question3(int num = 0){
   // variables for fibonacci
   int num1 = 0, num2 = 1;
