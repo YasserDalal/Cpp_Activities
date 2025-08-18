@@ -32,7 +32,7 @@ int question1(vector<int> arrayNum = {}){
     }
     cout << endl;
 
-    // show the output by looping through array
+    // show the output by looping 3 times
     for(int i = 0; i < 6; i+=2){
       cout << "Division of ";
 
@@ -60,7 +60,7 @@ int question1(vector<int> arrayNum = {}){
   cout << "Question 1 (Only Arguments)" << endl;
   cout << endl;
 
-  // show the output by looping through array
+  // show the output by looping 3 times
   for(int i = 0; i < lengthOfArray; i+=2){
     cout << "Division of ";
 
@@ -203,5 +203,18 @@ int question3(int num = 0){
 
   calculateFibb(num, arrayNum, num1, num2);
 
+  return 0;
+}
+
+int main(){
+  // run the outputs of the questions
+  question1(); // user input
+  question1({1, 0, 3, 4, 5, 6}); // arguments
+
+  question2(); // user input
+  question2(12); // arguments
+
+  question3(); // user input
+  question3(10); // arguments
   return 0;
 }
