@@ -36,13 +36,22 @@ int question1(vector<int> arrayNum = {}){
     for(int i = 0; i < 6; i+=2){
       cout << "Division of ";
 
+      // check if second number is 0
+      if(arrayNum[i+1] == 0){
+        // if number is 1 digit only add space
+        arrayNum[i] < 10 && cout << " " << arrayNum[i] << " ÷ " << arrayNum[i+1] << " = " << "Can't divide by 0" << endl;
+        // if number is 2 digits don't add space
+        arrayNum[i] >= 10 && cout << arrayNum[i] << " ÷ " << arrayNum[i+1] << " = " << "Can't divide by 0" << endl;
+        continue;
+      }
       // if number is 1 digit only
-      arrayNum[i] < 10 ? 
-        // add space 
-        cout << " " << arrayNum[i] << " ÷ " << arrayNum[i+1] << " = " << arrayNum[i] / arrayNum[i+1] << endl
-        :
+      if(arrayNum[i] < 10){
+        // add space
+        cout << " " << arrayNum[i] << " ÷ " << arrayNum[i+1] << " = " << arrayNum[i] / arrayNum[i+1] << endl; 
+      } else {
         // if number is 2 digits don't add space
         cout << arrayNum[i] << " ÷ " << arrayNum[i+1] << " = " << arrayNum[i] / arrayNum[i+1] << endl;
+      }
     }
     cout << endl;
     return 0;
@@ -55,13 +64,22 @@ int question1(vector<int> arrayNum = {}){
   for(int i = 0; i < lengthOfArray; i+=2){
     cout << "Division of ";
 
+    // check if second number is 0
+    if(arrayNum[i+1] == 0){
+      // if number is 1 digit only add space
+      arrayNum[i] < 10 && cout << " " << arrayNum[i] << " ÷ " << arrayNum[i+1] << " = " << "Can't divide by 0" << endl;
+      // if number is 2 digits don't add space
+      arrayNum[i] >= 10 && cout << arrayNum[i] << " ÷ " << arrayNum[i+1] << " = " << "Can't divide by 0" << endl;
+      continue;
+    }
     // if number is 1 digit only
-    arrayNum[i] < 10 ?
+    if(arrayNum[i] < 10){
       // add space
-      cout << " " << arrayNum[i] << " ÷ " << arrayNum[i+1] << " = " << arrayNum[i] / arrayNum[i+1] << endl
-      :
+      cout << " " << arrayNum[i] << " ÷ " << arrayNum[i+1] << " = " << arrayNum[i] / arrayNum[i+1] << endl; 
+    } else {
       // if number is 2 digits don't add space
       cout << arrayNum[i] << " ÷ " << arrayNum[i+1] << " = " << arrayNum[i] / arrayNum[i+1] << endl;
+    }
   }
   cout << endl;
   return 0;
