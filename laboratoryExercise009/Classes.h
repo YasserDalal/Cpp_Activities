@@ -7,11 +7,11 @@ using namespace std;
 
 class LeggedMammal{
   public:
-    string mLegs;
+    int mLegs;
     string mFur;
     string mTail;
 
-  LeggedMammal(string mLegs, string mFur, string mTail){
+  LeggedMammal(int mLegs, string mFur, string mTail){
     this->mLegs = mLegs;
     this->mFur = mFur;
     this->mTail = mTail;
