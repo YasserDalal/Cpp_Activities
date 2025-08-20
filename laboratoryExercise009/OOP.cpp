@@ -15,3 +15,16 @@ void question1(){
   cout << "Zebra's Fur: " << Zebra.mFur << endl;
   cout << "Zebra's Tail: " << Zebra.mTail << endl << endl;
 }
+
+void question2(){
+  Person LonelyGuy("Yasser Dalal", "Manama City", "Male", 21, "Student");
+  
+  cout << lineBreak << endl << endl;
+  cout << "Class 2: Person" << endl << endl;
+
+  cout << "Person's name: " << LonelyGuy.mName << endl;
+  cout << "Person's address: " << LonelyGuy.mAddress << endl;
+  cout << "Person's gender: " << LonelyGuy.mGender << endl;
+  cout << "Person's age: " << LonelyGuy.mAge << endl;
+  cout << "Person's occupation: " << LonelyGuy.mOccupation << endl << endl;
+}

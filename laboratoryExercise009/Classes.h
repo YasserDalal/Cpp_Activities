@@ -18,4 +18,21 @@ class LeggedMammal{
   };
 };
 
+class Person{
+  public:
+    string mName;
+    string mAddress;
+    string mGender;
+    int mAge;
+    string mOccupation;
+
+  Person(string mName, string mAddress, string mGender, int mAge, string mOccupation){
+    this->mName = mName;
+    this->mAddress = mAddress;
+    this->mGender = mGender;
+    this->mAge = mAge;
+    this->mOccupation = mOccupation;
+  };
+};
+
 #endif
