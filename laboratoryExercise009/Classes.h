@@ -35,4 +35,17 @@ class Person{
   };
 };
 
+class Polygon{
+  public:
+    string mName;
+    int mSides;
+    string mColor;
+
+  Polygon(string mName, int mSides, string mColor){
+    this->mName = mName;
+    this->mSides = mSides;
+    this->mColor = mColor;
+  };
+};
+
 #endif

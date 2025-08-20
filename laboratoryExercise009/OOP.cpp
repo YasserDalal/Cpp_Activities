@@ -28,3 +28,14 @@ void question2(){
   cout << "Person's age: " << LonelyGuy.mAge << endl;
   cout << "Person's occupation: " << LonelyGuy.mOccupation << endl << endl;
 }
+
+void question3(){
+  Polygon Triangle("Triangle", 3, "Blue");
+  
+  cout << lineBreak << endl << endl;
+  cout << "Class 3: Polygon" << endl << endl;
+
+  cout << "Polygon's name: " << Triangle.mName << endl;
+  cout << "Polygon's number of sides: " << Triangle.mSides << endl;
+  cout << "Polygon's color: " << Triangle.mColor << endl << endl;
+}
