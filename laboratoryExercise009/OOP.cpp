@@ -59,3 +59,12 @@ void question3(){
   cout << "Polygon's number of sides: " << Triangle.mSides << endl;
   cout << "Polygon's color: " << Triangle.mColor << endl << endl;
 }
+
+int main(){
+  // run the outputs of the classes
+  question1(); // Class 1
+  question2(); // Class 2
+  question3(); // Class 3
+
+  return 0;
+}
