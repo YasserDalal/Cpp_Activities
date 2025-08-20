@@ -1,8 +1,10 @@
-#include "Classes.h"
-#include <iostream>
+#include "Classes.h" // import the all the classes inside "Classes.h"
+#include <iostream> // enables cout
 
+// declare std to use cout and other data types without using the prefix 'std::'
 using namespace std;
 
+// reusable line break
 const string lineBreak = "________________________________________________________________";
 
 /*
@@ -10,8 +12,10 @@ const string lineBreak = "______________________________________________________
   Consider the number of legs, kind of fur, presence of tail.
 */
 void question1(){
+  // pass arguments to the constructor
   LeggedMammal Zebra(4, "Black and White stripes fur", "Has a short tail");
   
+  // show the output
   cout << lineBreak << endl << endl;
   cout << "Class 1: LeggedMammal" << endl << endl;
 
@@ -25,8 +29,10 @@ void question1(){
   Consider the name, address, gender, age and occupation.
 */
 void question2(){
+  // pass arguments to the constructor
   Person LonelyGuy("Yasser Dalal", "Manama City", "Male", 21, "Student");
   
+  // show the output
   cout << lineBreak << endl << endl;
   cout << "Class 2: Person" << endl << endl;
 
@@ -42,8 +48,10 @@ void question2(){
   Consider the name, number of sides and color.
 */
 void question3(){
+  // pass arguments to the constructor
   Polygon Triangle("Triangle", 3, "Blue");
   
+  // show the output
   cout << lineBreak << endl << endl;
   cout << "Class 3: Polygon" << endl << endl;
 
