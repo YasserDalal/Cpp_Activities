@@ -72,4 +72,90 @@ class Dog : public LeggedMammal{
     };
 };
 
+class Person{
+  public:
+    string mName;
+    string mAddress;
+    string mGender;
+    int mAge;
+    string mOccupation;
+
+  Person(){}
+
+  string getName(){
+    return mName;
+  };
+
+  string getAddress(){
+    return mAddress;
+  };
+
+  string getGender(){
+    return mGender;
+  };
+
+  int getAge(){
+    return mAge;
+  };
+
+  string getOccupation(){
+    return mOccupation;
+  };
+
+  void setName(string name){
+    mName = name;
+  };
+
+  void setAddress(string address){
+    mAddress = address;
+  };
+
+  void setGender(string gender){
+    mGender = gender;
+  };
+
+  void setAge(int age){
+    mAge = age;
+  };
+
+  void setOccupation(string occupation){
+    mOccupation = occupation;
+  };
+};
+
+class Student : public Person{
+  private:
+    string mProgram = "";
+    int mYearLevel = 0;
+    string mUniversity = "";
+
+  public:
+    Student(){};
+
+    string getProgram(){
+      return mProgram;
+    };
+
+    int getYearLevel(){
+      return mYearLevel;
+    };
+    
+    string getUniversity(){
+      return mUniversity;
+    };
+
+    void setProgram(string program){
+      mProgram = program;
+    };
+
+    void setYearLevel(int year){
+      mYearLevel = year;
+    };
+
+    void setUniversity(string university){
+      mUniversity = university;
+    };
+  
+};
+
 #endif
