@@ -25,5 +25,17 @@ int main() {
   cout << "Value: " << (int)*pArray << endl;
   cout << "Address: " << (string*)pArray << endl << endl;
 
+  // -----------------------------   Question 3   ----------------------------------------------
+  float largeArray[20];
+  float *pLargeArray = largeArray;
+
+  cout << lineBreak << endl << endl;
+  cout << "Question 3 " << "( array[20] )" << endl << endl;
+
+  cout << "Value: " << (int)*pLargeArray << endl;
+  cout << "Address: " << (string*)pLargeArray << endl << endl;
+  
+  // -------------------------------------------------------------------------------------------
+
   return 0;
 }
