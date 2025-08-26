@@ -5,6 +5,10 @@ using namespace std;
 // reusable line break
 const string lineBreak = "_______________________________________________________________________";
 
+string Question3(){
+  return "This is it!";
+}
+
 void Question1(int &num){
   int *pNum = &num;
   *pNum = 27946;
@@ -39,6 +43,16 @@ int main(){
 
   cout << "sharedDetails Value: " << sharedDetails << endl;
   cout << "sharedDetails Address: " << &sharedDetails << endl << endl;
+  
+  // -----------------------------   Question 3   ----------------------------------------------
+  cout << lineBreak << endl << endl;
+  cout << "Question 2" << endl << endl;
+  
+  string strangeVariable = Question3();
+
+  cout << strangeVariable << endl << endl;
+
+  // -------------------------------------------------------------------------------------------
 
   return 0;
 }
