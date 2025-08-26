@@ -57,7 +57,7 @@ int main(){
   
   // -----------------------------   Question 3   ----------------------------------------------
   cout << lineBreak << endl << endl;
-  cout << "Question 2" << endl << endl; // labels
+  cout << "Question 3" << endl << endl; // labels
   
   // Question3() returns a string
   string strangeVariable = Question3();
