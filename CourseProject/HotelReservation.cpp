@@ -19,6 +19,8 @@ int main(){
   cout << "Customer Name: "; getline(cin >> ws, name);
 
   do {
+    // cleanup
+    age;
     // check if it's minor age
     if(age <= 17 && to_string(age).length()){
       cout << endl << "Minors are not allowed" << endl;
@@ -41,6 +43,8 @@ int main(){
   } while(guests <= 0 || !guests);
 
   do{
+    // cleanup 
+    days;
     // check if the number of days is invalid
     if(days <= 0 && to_string(days).length()){
       cout << endl << "Invalid Number!: " << days << endl; 
